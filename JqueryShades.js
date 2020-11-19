@@ -61,6 +61,7 @@ $('#toggle1').click(function(){
     $("#panel1").slideToggle();
 })
  
+document.body.style.backgroundColor='black'
 
 
 
