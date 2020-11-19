@@ -42,6 +42,7 @@ d1.style.marginLeft='40%'
 d1.style.marginRight='20%'
  
 d1.style.marginTop='-20%'
+d1.id='toggle1'
 
 var panel=document.createElement('div');
 document.body.appendChild(panel);
@@ -53,8 +54,14 @@ panel.style.boxShadow='2px 2px 2px purple'
 panel.innerHTML="Toggler";
 panel.style.marginLeft='40%'
 panel.style.marginRight='20%'
+panel.id='panel1';
+
+
+$('#toggle1').click(function(){
+    $("#panel1").slideToggle();
+})
  
- 
+
 
 
 
