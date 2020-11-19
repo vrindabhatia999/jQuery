@@ -30,6 +30,33 @@ $(document).ready(function(){
     
 })
 
+var d1=document.createElement('div');
+document.body.appendChild(d1);
+
+d1.style.padding='5px;'
+d1.style.textAlign='center'
+d1.style.backgroundColor=' #e5eecc'
+d1.style.boxShadow='2px 2px 2px purple'
+d1.innerHTML="click";
+d1.style.marginLeft='40%'
+d1.style.marginRight='20%'
+ 
+d1.style.marginTop='-20%'
+
+var panel=document.createElement('div');
+document.body.appendChild(panel);
+
+panel.style.padding='5px;'
+panel.style.textAlign='center'
+panel.style.backgroundColor=' #e5eecc'
+panel.style.boxShadow='2px 2px 2px purple'
+panel.innerHTML="Toggler";
+panel.style.marginLeft='40%'
+panel.style.marginRight='20%'
+ 
+ 
+
+
 
 
  
