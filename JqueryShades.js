@@ -57,6 +57,8 @@ panel.style.boxShadow='2px 2px 2px purple'
 panel.style.marginLeft='20%'
 panel.style.marginRight='20%'
 panel.id='panel1';
+panel.style.fontFamily='gothic'
+panel.style.fontSize='20px'
 
 
 $('#toggle1').click(function(){
