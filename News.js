@@ -6,3 +6,6 @@ var b='Fashion News'
 var link2=b.link("https://www.business-standard.com/article/current-affairs/how-manish-arora-went-from-being-god-of-fashion-to-failed-businessman-120111800150_1.html")
 panel.innerHTML=link1+"<br>"+link2;
 
+$("#btn1").click(function(){
+    $("#div3").html("<b>Hello</b>");
+});
