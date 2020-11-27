@@ -12,3 +12,6 @@ $("#btn1").click(function(){
 $("#btn2").click(function(){
     $('#img1').after("<img src='icon/choc.svg' height='50px'>")
 });
+$("#btn3").click(function(){
+    $('#img1').before("<img src='icon/popsicle.svg' height='50px'>")
+});
