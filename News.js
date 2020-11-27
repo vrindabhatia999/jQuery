@@ -10,5 +10,5 @@ $("#btn1").click(function(){
     $("#div3").html("<b>Hello</b>");
 });
 $("#btn2").click(function(){
-    $('#img1').after("<img src='icon/ice1.svg' height='50px'>")
+    $('#img1').after("<img src='icon/choc.svg' height='50px'>")
 });
