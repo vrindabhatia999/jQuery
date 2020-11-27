@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     //fading out
-    $("button").click(function(){              
+    $("#btn0").click(function(){              
         $("#div1").fadeOut(1200);
         $("#div1").fadeIn(2000);
         $("#div1").fadeTo(1200,0.4);
@@ -34,6 +34,7 @@ var d1=document.createElement('div');
 document.body.appendChild(d1);
 
 d1.style.padding='5px;'
+ 
 d1.style.textAlign='center'
 d1.style.backgroundColor=' #e5eecc'
 d1.style.boxShadow='2px 2px 2px purple'
